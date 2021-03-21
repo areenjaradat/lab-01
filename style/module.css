@@ -1,0 +1,30 @@
+.divChild{
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#a{background-color: blueviolet; }
+#b{background-color: aquamarine;}
+#c{background-color: salmon;}
+#d{background-color: darkblue;}
+#e{background-color: olive;}
+#f{background-color: burlywood;}
+#g{background-color: slategray;}
+#h{background-color: tomato;}
+#i{background-color: goldenrod;} 
+
+
+@media screen and (min-width:768px) and (max-width:960px){
+
+    #a{background-color: goldenrod;}
+    #b{background-color: tomato;}
+    #c{background-color:slategray ;}
+    #d{background-color: burlywood ;}
+    #e{background-color: darkred;}
+    #f{background-color:darkblue;}
+    #g{background-color:salmon ;}
+    #h{background-color:aquamarine ;}
+    #i{background-color:blueviolet ;}
+
+}
